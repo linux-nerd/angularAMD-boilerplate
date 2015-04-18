@@ -5,9 +5,9 @@ Download the folder, and you are good to go.
 
 ## Pretty URL
 In order to achieve pretty url in angular app
-* Uncomment `$locationProvider.html5Mode(true)`; from `components/common/app.js`
-* Uncomment `<base href="/Project/angular/">` and set the relative path(w.r.t server) to index.html from `index.html`
-* Uncomment `RewriteRule ^ /Project/angular/index.html` from `.htaccess` 
+* Uncomment `$locationProvider.html5Mode(true)`; from `components/common/app.js`.
+* Uncomment `<base href="/Project/angular/">` and set the relative path(w.r.t server) to index.html from `index.html`.
+* Uncomment `RewriteRule ^ /Project/angular/index.html` from `.htaccess`.
 
 ## Reference
 * [angularAMD](https://github.com/marcoslin/angularAMD/ "angularAMD")
